@@ -1,0 +1,39 @@
+<!--pages/room/room.wxml-->
+<view class="room">项目组：无情哈拉少</view>
+
+<view class="chat1" wx:for="{{chatlists}}" wx:for-index="ind" wx:for-item="chat">
+	<!--机器人-->
+	<view wx:if='{{chat.tap=="ai"}}' class="chat">
+		<view class="left">
+			<view class="img">
+				<image src="{{chat.img}}"></image>
+			</view>
+			<view class="nickname">{{chat.nickname}}</view>
+		</view>
+		<view class="bigchat">
+		  <view id="san"></view>
+		  <view class="right">{{chat.msg}}
+	  	</view>
+		</view>
+	</view>
+  <!--用户-->
+	<view wx:else class="chatuser">
+			<view class="bigchat1">
+		  	<view id="sanuser"></view>
+			  <view class="right">{{chat.msg}}
+	  		</view>
+			</view>
+			<view class="left">
+				<view class="img">
+					<image src="{{chat.img}}"></image>
+				</view>
+				<view class="nickname">{{chat.nickname}}</view>
+		</view>
+	</view>
+</view>
+<view class="form">
+
+	<input class="weui-input" value="{{msg}}" bindinput="bindKeyInput" auto-focus placeholder="请输入聊天内容" />
+
+	<button type="primary" size="mini" bindtap="sendMsg">发送</button>
+</view>

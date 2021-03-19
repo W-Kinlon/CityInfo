@@ -1,0 +1,101 @@
+<swiper autoplay="true" indicator-dots="{{true}}" interval="2800" circular="true" class="huakuai"> 
+    <swiper-item>
+      <image src="../img/f1.png"></image>
+    </swiper-item>
+    <swiper-item>
+           <image src="../img/f2.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+           <image src="../img/f3.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+           <image src="../img/f4.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+           <image src="../img/f5.png"></image>
+    </swiper-item>
+</swiper>
+
+<!--第一排功能区-->
+<view class="first_fun">
+
+<view>
+<navigator url="/pages/cityInfo/cityInfo">
+<image src="../img/w8.png" class="icon"></image>
+<view>城市信息</view>
+</navigator>
+</view>
+
+<view class="tianqi">
+<navigator url="/pages/weather/weather">
+<image src="../img/w1.png" class="icon"></image>
+<view>天气预报</view>
+</navigator>
+</view>
+
+<view class="car">
+<navigator url="/pages/seeimg/seeimg">
+<image src="../img/w2.png" class="icon"></image>
+<view>汽车识别</view>
+</navigator>
+</view>
+
+<view class="lvjing">
+<navigator url="/pages/PSimg/PSimg">
+<image src="../img/w5.png" class="icon"></image>
+<view>图片滤镜</view>
+</navigator>
+</view>
+
+</view>
+
+<!--第二排功能区-->
+<view class="second_fun">
+
+
+<view>
+<navigator url="/pages/trans/trans">
+<image src="../img/w7.png" class="icon"></image>
+<view>语言翻译</view>
+</navigator>
+</view>
+
+<view>
+<navigator url="/pages/room/room">
+<image src="../img/w4.png" class="icon"></image>
+<view>智能聊天</view>
+</navigator>
+</view>
+
+<view>
+<navigator url="/pages/game/game">
+<image src="../img/w6.png" class="icon"></image>
+<view>休闲一刻</view>
+</navigator>
+</view>
+
+
+<view>
+<navigator url="/pages/moremsg/moremsg">
+<image src="../img/w9.png" class="icon1"></image>
+<view><text decode="{{true}}">&nbsp;更多</text></view>
+</navigator>
+</view>
+
+</view>
+
+
+
+
+
+<!--页面修饰 上滑弹幕-->
+    <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="2000">
+
+          <swiper-item>
+            <view class="swiper_item">项目组：无情哈拉少</view>
+          </swiper-item>
+            <swiper-item>
+            <view class="swiper_item">为祖国加油，为民族争气！</view>
+          </swiper-item>
+
+    </swiper>

@@ -1,0 +1,17 @@
+<!--图片识别-->
+<view> 
+  <image src="{{imgUrl}}"></image>
+  <button bindtap="get_image" type="primary" plain="true" class="img">上传图片</button>
+
+</view>
+
+<view>
+<button bindtap="recognition_image" type="primary" plain="true">识别该图片</button>
+</view>
+
+<view>
+<view> </view>
+  <view>名 称：{{name}}</view>
+    <view>概 率：{{score}}</view>
+      <view>百 科：{{description}}</view>
+</view>

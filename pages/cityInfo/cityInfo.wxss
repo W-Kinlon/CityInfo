@@ -1,0 +1,53 @@
+.form{
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+.weui-input{
+  width: 600rpx;
+  line-height: 100rpx;
+}
+.button{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  height: 80rpx;
+}
+
+.title{
+  width:100%;
+  height:100rpx;
+  margin-top: 110rpx;
+}
+
+.nav{
+  z-index:100;
+  border-bottom:1px solid #dfdfdf;
+  }
+
+.nav-but{
+    display:inline;
+  text-align: center;
+  line-height: 80rpx;
+  color: rgb(3, 91, 91);
+  }
+
+.map{
+  width:100%;
+  height:700rpx;
+}
+
+.info{
+  position: relative;
+  margin-top: 700rpx;
+  background-color: black;
+}
+.addmsg{
+  margin-top: 10rpx;
+  background-color: rgb(186, 215, 245)
+}
+.addtitle{
+  font-size: x-large;
+}
+.addesc{
+  font-size: large;
+}

@@ -1,0 +1,6 @@
+/* pages/seeimg/seeimg.wxss */
+
+.img{
+margin-bottom: 5px;
+
+}

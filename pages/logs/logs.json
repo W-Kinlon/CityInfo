@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我自己随便设置当前页面标题",
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

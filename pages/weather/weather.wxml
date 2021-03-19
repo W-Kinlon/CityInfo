@@ -1,0 +1,33 @@
+<scroll-view scrolly-y class="outer">
+<view class="base_info inner">
+<text class="city">{{city}}</text>
+<text class="date">{{date}}</text>
+
+</view>
+
+<view class="temp_info inner">
+<text class="temp">{{temp}}°C</text>
+<text class="desc">{{text}}</text>
+</view>
+
+
+<view class="index_info inner">
+<text class="index_title">运动指数：{{category}}</text>
+<text class="index_desc">{{catetext}}</text>
+</view>
+
+
+<view class="index_info inner">
+<text class="index_title">交通指数：{{car}}</text>
+<text class="index_desc">{{cartext}}</text>
+</view>
+
+</scroll-view>
+
+
+
+
+<view class="form">
+<input class="weui-input" bindinput="cityName"  placeholder="请输入城市" />
+	<button type="primary"size="mini" bindtap="search" class="button">查询</button>
+</view>

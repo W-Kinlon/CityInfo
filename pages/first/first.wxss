@@ -1,0 +1,38 @@
+/* pages/first/first.wxss */
+/*图片滑块区*/
+.huakuai{
+height: 500rpx;
+margin-top: 5px;
+
+}
+page{
+  font-size: 35rpx;
+}
+.icon{
+  width: 100rpx;
+  height: 100rpx;
+  padding-left: 15rpx;
+}
+.swiper_container {
+  height: 45rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 180rpx;
+}
+
+.first_fun{
+  display: flex;
+  justify-content: space-around;
+  margin: 50rpx 0;
+}
+.second_fun{
+  display: flex;
+  justify-content: space-around;
+  margin: 50rpx 0;
+}
+.icon1{
+  width: 100rpx;
+  height: 100rpx;
+  padding-right: 15rpx;
+}

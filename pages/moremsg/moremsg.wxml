@@ -1,0 +1,7 @@
+<view class="img">
+<image src="../img/gaoxiao.jpg" ></image>
+</view>
+<view class="msg">
+   <text>别看了，这里啥也没有！！！</text>
+
+</view>

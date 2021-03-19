@@ -1,0 +1,7 @@
+.img{
+margin-top: 100rpx;
+}
+.msg{
+  color: red;  
+  font-size: 40px;
+}

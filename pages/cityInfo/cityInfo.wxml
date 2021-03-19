@@ -1,0 +1,33 @@
+<!--pages/cityInfo/cityInfo.wxml-->
+<view class="form">
+<input class="weui-input" bindinput="cityName"  placeholder="请输入城市(市/区)" />
+	<button type="primary"size="mini" bindtap="Sea" class="button">查询</button>
+</view>
+
+
+
+<view class="title">
+ <view class='nav'>
+  <button bindtap='search' data-type='商城' class='nav-but'>商城</button>
+ <button bindtap='search' data-type='美食' class='nav-but'>美食</button>
+  <button bindtap='search' data-type='酒店' class='nav-but'>酒店</button>
+ <button bindtap='search' data-type='景点' class='nav-but'>景点</button>
+ <!-- <button bindtap='search' data-type='高校' class='nav-but'>高校</button> -->
+ </view>
+
+
+ <map class="map" longitude='{{poi.longitude}}' latitude='{{poi.latitude}}' scale='16' markers='{{markers}}' show-location bindmarkertap='gotoHere'></map>
+
+</view>
+
+
+
+<view class='info'>
+
+ <navigator wx:for="{{perimeter}}" class="pmsg">
+  <view class="addmsg">
+  <view class="addtitle">{{item.title}}</view>
+   <view class="addesc">位置：{{item.address}} </view> 
+  </view>
+ </navigator>
+</view>

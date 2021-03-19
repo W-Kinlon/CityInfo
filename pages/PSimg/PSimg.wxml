@@ -1,0 +1,28 @@
+<!--
+<view>
+<button bindtap="get_access_token">获取access_token</button>
+</view>
+-->
+
+<view> 
+  <image src="{{imgUrl}}"></image>
+    <button bindtap="get_image" type="primary" plain="true">上传图片</button>
+</view>
+
+
+<view>
+<text>选择滤镜：</text>
+<radio-group bindchange="radioChange">
+
+<radio value="cartoon" checked="true"/>卡通
+     <radio value="pencil" />铅笔
+     <radio value="wave" />油画
+     <radio value="gothic" />哥特
+
+</radio-group>
+</view>
+
+<view> 
+  <button bindtap="img_meitu" type="primary" plain="true">美化图片</button>
+  <image src="{{meitu}}"></image>
+</view>

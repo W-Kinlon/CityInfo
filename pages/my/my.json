@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#cad",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "我的第一个页面",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

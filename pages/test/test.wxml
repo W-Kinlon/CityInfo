@@ -1,0 +1,6 @@
+<!-- audio.wxml -->
+<audio name="{{name}}"author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+
+<button type="primary" bindtap="audioPlay">播放</button>
+<button type="primary" bindtap="audioPause">暂停</button>
+
